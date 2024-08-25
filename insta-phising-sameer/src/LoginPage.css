@@ -1,0 +1,122 @@
+/* Container styles */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+/* Phone Image */
+.phone-container {
+  display: none;
+}
+
+.phone-image {
+  height: 600px;
+}
+
+/* Login Form Styles */
+.login-form-container {
+  width: 350px;
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-form h1 {
+  font-family: 'Billabong', cursive;
+  font-size: 55px;
+  margin-bottom: 35px;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 9px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.divider span {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+/* Facebook Login */
+.facebook-login {
+  background-color: #385185;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Links */
+.forgot-password {
+  display: block;
+  color: #00376b;
+  font-size: 12px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.signup-container p {
+  font-size: 14px;
+}
+
+.signup-container a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+/* App Download Section */
+.get-app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-stores img {
+  height: 40px;
+  margin: 5px;
+}
