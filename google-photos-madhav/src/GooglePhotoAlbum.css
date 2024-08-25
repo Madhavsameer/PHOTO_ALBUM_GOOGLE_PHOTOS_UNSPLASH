@@ -1,0 +1,72 @@
+.google-photos-album {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .album-selector {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .album-selector label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .photos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .photo-item {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .photo {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #0073e6;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .modal-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
